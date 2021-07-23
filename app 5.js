@@ -1,6 +1,6 @@
 let PriceDelivery = prompt(`Страна доставки`);
 
-switch (`PriceDelivery`[0].toLowerCase()) {
+switch(PriceDelivery.toLowerCase()) {
     case `китай`:
         console.log(`Доставка в Китай будет стоить 150 кредитов`);
         break;
@@ -20,4 +20,3 @@ switch (`PriceDelivery`[0].toLowerCase()) {
         alert(`В вашей стране доставка не доступна`);
         break;
 }
-// 6-я задача пока не решена. У меня перестал работать live server (консоль не работает)
